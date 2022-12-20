@@ -10,9 +10,8 @@ h1 {
 body {
     background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/The-empty-box-and-zeroth-maria-manga-Cropped.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
   }
+  
 p {
     border-top-style: dotted;
     border-right-style: solid;
