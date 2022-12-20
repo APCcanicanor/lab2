@@ -53,7 +53,7 @@ nav ul li a {
     border-radius: 3px;
 }
 a.home-button, a.about-button, a:hover {
-    background: #3b3b3b;
+    background: #908d8d;
     transition: .5s;
 }
 .checkbtn {
