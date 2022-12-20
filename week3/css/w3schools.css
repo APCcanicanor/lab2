@@ -1,8 +1,13 @@
 * {
     text-align: center;
-    color: blue;
   }
 body {
     background-color: lightblue;
   }
-/* is just a comment
+/* is just a comment  */
+.p1 { 
+    color: hsla(0, 100%, 50%, 0.8);
+}
+h1 {
+    background-color: green;
+  }
