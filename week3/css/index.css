@@ -136,7 +136,7 @@ a.home-button, a.about-button, a:hover {
     width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     padding: 5px;
     font-size: 30px;
     text-align: center; 
