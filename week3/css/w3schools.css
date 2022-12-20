@@ -5,9 +5,10 @@ body {
     background-color: lightblue;
   }
 /* is just a comment  */
-.p1 { 
-    color: hsla(0, 100%, 50%, 0.8);
-}
 h1 {
     background-color: green;
   }
+.bg {
+    background: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/The-empty-box-and-zeroth-maria-manga-Cropped.jpg") no-repeat; 
+
+}
