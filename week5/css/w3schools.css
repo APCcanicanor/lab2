@@ -1,0 +1,36 @@
+
+body {
+    background-color: lightblue;
+  }
+/* is just a comment  */
+h1 {
+    background-color: green;
+  }
+
+body {
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/The-empty-box-and-zeroth-maria-manga-Cropped.jpg");
+    background-repeat: no-repeat;
+  }
+  
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border: 5px solid red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+
+h2 {
+    margin: 20px 0 0 0;
+  }
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
