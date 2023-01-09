@@ -52,9 +52,17 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
 }
-a.home-button, a.about-button, a:hover {
-    background: #908d8d;
+nav ul li a:hover {
+    background: #464343;
+}
+.h-btn:hover {
+    background: #6a1919;
     transition: .5s;
+}
+.w3-button:hover {
+    background: #696868;
+    padding: 3px 25px;
+    
 }
 .checkbtn {
     font-size: 30px;
@@ -132,17 +140,17 @@ a.home-button, a.about-button, a:hover {
     cursor: pointer;
 }
 .about-area {
-    background: url("https://www.pixelstalk.net/wp-content/uploads/images1/Light-Bulb-Wallpaper-HD.jpg") no-repeat;
+    background: url("https://cdn.wallpapersafari.com/55/49/1aprqy.jpg") no-repeat;
     width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     padding: 5px;
     font-size: 30px;
     text-align: center; 
 }
 .w3-area {
-    background: url("https://wallpapercave.com/wp/wp7701741.jpg") no-repeat;
+    background: url("https://wallpaperaccess.com/full/631573.jpg") no-repeat;
     width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
@@ -151,6 +159,55 @@ a.home-button, a.about-button, a:hover {
     font-size: 30px;
     text-align: center; 
 
+}
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
 }
 
 
