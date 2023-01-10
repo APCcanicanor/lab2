@@ -113,7 +113,7 @@ nav ul li a:hover {
 
 
 .section1 { 
-	background: url("https://media.giphy.com/media/uFmH8za4E6M5STIiTu/giphy.gif") no-repeat;
+    background: #121215;
 	width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
@@ -123,8 +123,13 @@ nav ul li a:hover {
 }
 
 .avatar {
-    height:300px;
-    border-radius: 50%;
+    height:500px;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 10%;
+    
 }
 footer{
     background: #111;
@@ -175,3 +180,23 @@ footer{
 .socials a:hover i{
     color: aqua;
 }
+
+.typing h2 {
+    overflow: hidden; 
+    border-right: .15em solid rgb(254, 254, 254);
+    white-space: nowrap; 
+    margin: 15% auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 2.5s steps(30) infinite alternate,
+      blink-caret .75s steps(30) infinite normal;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 57% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
