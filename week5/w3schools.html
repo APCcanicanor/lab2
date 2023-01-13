@@ -6,16 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canicanor works</title>
     <link rel = "stylesheet" href = "css/w3schools.css">
+    <script src = "js/time.js"></script>
 </head>
-<body>
+<body onload = "realtimeClock()">
 <!-- Legit applying everything from w3schools-->
 <!-- PART 1 -->
+<nav class = "custom-header">
+    <input type  ="checkbox" id = "check">
+    <label for = "check" class = "checkbtn">
+          <i class="fas fa-bars"></i>
+    </label>
+    <label class = "logo"><a href = #home style = "color: white;">V's</a></label>
+    <ul>
+        <li><a alt = "home-button" href = "index.html"> Home </a></li>
+        <li><a alt = "home-button" href = "personal profile.html"> Personal Page </a></li>
+    </ul>
+</nav>
 
-<h1><a href = "index.html"> Go back to home page </a></h1>
-<h1><a href = "personal profile.html"> Personal Profile </a></h1>
-<a href = "personal profile.html"> week3 part 2 </a>
+ 
 
-
+<div class = "container">
+    <section class="home-area" id="home">
+        <div id="text-part" style = "margin-top: 15%; text-align: center">
+            <h1>Progress in W3SCHOOLS page</h1>
+            <div id = "clock"></div>
+        </div>
+    </section>
+    <div id = "part1-js">
+        <section class = "intro-js">
+            <script>
+                function myFunction() {
+                    document.getElementById("prs").innerHTML = "Hello human";
+                }
+            </script>
+            <h1 id = "prs">Press the button</h1>
+            <button type = "button" id = "js-btn" onclick = "myFunction()"> Click me </button>
+        </section>
+    </div>
+<!--
     <h1> This is heading no.1 </h1>
     <h2> This is heading no.2 </h2>
     <h3> This is heading no.3 </h3>
@@ -24,7 +52,7 @@
     <p><a href = "https://youtu.be/8fTeNRkZi0A"> Click me </a></p>
     <img src = "https://wallpaperaccess.com/full/5342161.jpg" alt = "eva" width = "104" height = "142"> 
 
-<!-- PART 2 -->
+ PART 2 
 
     <h1> This is a heading (part 2)</h1>
 
@@ -38,7 +66,7 @@
     <h1 style = "font-size: 60px;">HEADING 1</h1>
     <h2> BANGER </h2>
 
-<!-- WEEK 3 PART 2 -->
+ WEEK 3 PART 2 
 
 
 <h1 style = "font-size: 100px"> WEEK 3 PART 2 </h1>
@@ -107,10 +135,21 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 <div class = "pad">
     <p>This is a padding</p>
 </div>
+-->
 
-
-
-
+</div>
+<!--Footer-->
+<footer>
+    <div class="footer-content">
+        <h3>V's Website</h3>
+        <p>Follow us on: </p>
+        <ul class="socials">
+            <li><a href="#"><a href = "https://www.facebook.com/carlvon.nicanor/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><a href = "https://twitter.com/caii522"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><a href = "https://www.linkedin.com/in/carl-von-nicanor-3754b818b/"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+</footer>
 
 
 
