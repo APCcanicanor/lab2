@@ -133,24 +133,35 @@ nav ul li a:hover {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
-#part1-js { 
-	background: url("https://wallpapers.com/images/hd/grey-aesthetic-night-city-u9dkyhqvp33x33e6.jpg") no-repeat;
-	width:100%;
-	height:calc(100vh - 80px);
-	background-size:cover;
-  color:white;
-  padding: 30px;                
-}
+
 #js-btn {
-  background: #584c4c;
+  background: #ffffff;
   border: 0;
   outline: none;
-  padding: 15px 35px;
-  color: #fff;
+  padding: 10px 25px;
+  color: rgb(0, 0, 0);
   position: relative;
   font-weight: 500px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+#prs {
+  display: table;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #464343;
+  margin: 5px auto 5px auto;
+}
+
+#js-prt2{ 
+  display: table;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #464343;
+  margin: 5px auto 5px auto;
 }
 
 

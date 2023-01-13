@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canicanor works</title>
     <link rel = "stylesheet" href = "css/w3schools.css">
+    <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
     <script src = "js/time.js"></script>
 </head>
 <body onload = "realtimeClock()">
@@ -32,15 +33,33 @@
             <div id = "clock"></div>
         </div>
     </section>
-    <div id = "part1-js">
+    <div id = "part1-js" >
         <section class = "intro-js">
+            <div id = "w3-intro">
+            <h1 style = "text-align: center; font-size: 50px"> Java Script thingz </h1>
             <script>
                 function myFunction() {
                     document.getElementById("prs").innerHTML = "Hello human";
                 }
             </script>
-            <h1 id = "prs">Press the button</h1>
-            <button type = "button" id = "js-btn" onclick = "myFunction()"> Click me </button>
+            <h2 id = "prs">Press the button <br>
+            <button type = "button" id = "js-btn" onclick = "myFunction()" > Click me </button>
+            </h2>
+        </div>  
+        <div id = "js-prt2">
+            <h2>Variables</h2>
+            <p> We add x and y by letting: <br>
+                x = 10 <br>
+                y = 5
+            </p>
+            <p id ="var"></p>
+            <script>
+                let x = 10;
+                let y = 5;
+                let sum = x + y;
+                document.getElementById("var").innerHTML = "The sum of x and y is: " + sum;
+            </script>
+        </div>
         </section>
     </div>
 <!--
@@ -136,10 +155,8 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
     <p>This is a padding</p>
 </div>
 -->
-
-</div>
-<!--Footer-->
-<footer>
+ <!--Footer-->
+ <footer>
     <div class="footer-content">
         <h3>V's Website</h3>
         <p>Follow us on: </p>
@@ -150,18 +167,9 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
         </ul>
     </div>
 </footer>
+</div>
 
 
-
-
-
-
-
-
-    
-
-
-
-    
+  
 </body>
 </html>
