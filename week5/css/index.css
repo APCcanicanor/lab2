@@ -36,6 +36,15 @@ label.logo {
     height: 70px;
     border-radius: 50%;
 }
+.h-btn:hover {
+    background: #6a1919;
+    transition: .5s;
+}
+.w3-button:hover {
+    background: #d9b3b3;
+    padding: 3px 25px;
+    
+}
 nav ul {
     float: right;
     margin-right: 20px;
@@ -53,17 +62,10 @@ nav ul li a {
     border-radius: 3px;
 }
 nav ul li a:hover {
-    background: #464343;
-}
-.h-btn:hover {
-    background: #6a1919;
+    background: #808080;
     transition: .5s;
 }
-.w3-button:hover {
-    background: #696868;
-    padding: 3px 25px;
-    
-}
+
 .checkbtn {
     font-size: 30px;
     color: white;
@@ -96,7 +98,7 @@ nav ul li a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background:#000000;
+        background:#0f0f0f;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -110,14 +112,13 @@ nav ul li a:hover {
     }
     a:hover, a.home-button, a.about-button{
         background: none;
-        color:  #908e8e;
+        color:  #808080;
 
     }
     #check:checked ~ ul {
         left: 0;
     }
 }
-
 
 .home-area { 
 	background: url("https://media.giphy.com/media/fWgfRlEbBShCWvqMnB/giphy.gif") no-repeat;
@@ -139,22 +140,12 @@ nav ul li a:hover {
     letter-spacing: 1px;
     cursor: pointer;
 }
-.about-area {
-    background: url("https://cdn.wallpapersafari.com/55/49/1aprqy.jpg") no-repeat;
-    width:100%;
-	height:calc(100vh - 80px);
-	background-size:cover;
-    color:rgb(255, 255, 255);
-    padding: 5px;
-    font-size: 30px;
-    text-align: center; 
-}
+
 .w3-area {
-    background: url("https://wallpaperaccess.com/full/631573.jpg") no-repeat;
+    background: #E4DEE4 no-repeat;
     width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
-    color:rgb(255, 255, 255);
     padding: 5px;
     font-size: 30px;
     text-align: center; 
@@ -207,7 +198,7 @@ footer{
 
 }
 .socials a:hover i{
-    color: aqua;
+    color: #09a3ca;
 }
 
 

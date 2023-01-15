@@ -13,10 +13,10 @@ body {
     font-family: garamond;
 }
 nav {
-    background: #000000;
+    background: #0f0f0f;
     height: 80px;
     width: 100%;
-    opacity: 95%;
+    
 }
 label.logo {
     color: white;
@@ -53,7 +53,7 @@ nav ul li a {
     border-radius: 3px;
 }
 nav ul li a:hover {
-    background: #464343;
+    background: #808080;
     transition: .5s;
 }
 
@@ -89,7 +89,7 @@ nav ul li a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background:#000000;
+        background:#0f0f0f;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -103,34 +103,65 @@ nav ul li a:hover {
     }
     a:hover, a.home-button, a.about-button{
         background: none;
-        color:  #908e8e;
+        color:  #808080;
 
     }
     #check:checked ~ ul {
         left: 0;
     }
 }
+#text {
+    color: white;
+    font-size: 100px;
+    margin-top: 15%;
+    font-weight: 700;
+    text-align: center;
 
+}
 
 .section1 { 
-    background: #121215;
+    background: #716969;
 	width:100%;
 	height:calc(100vh - 80px);
 	background-size:cover;
-    color:white;
-    padding: 30px;
-    font-size: 50px;                 
+    padding: 30px;                
 }
 
+#sec2 {
+    background-color: #ffffff;
+    width:100%;
+	height:calc(80vh - 80px);
+	background-size:cover;
+    padding: 30px;   
+}
 .avatar {
     height:500px;
-    float: right;
     display: block;
-    margin-left: auto;
-    margin-right: 10%;
-    margin-top: 10%;
-    
+    margin-top: 5%;
 }
+
+.profile-intro {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 6%;
+    float: left;
+
+}
+.column {
+    float: left;
+}
+.left {
+    width: 25%;
+}
+.right {
+    width: 75%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 footer{
     background: #111;
     height: auto;
@@ -178,25 +209,5 @@ footer{
     
 }
 .socials a:hover i{
-    color: aqua;
+    color: #09a3ca;
 }
-
-.typing h2 {
-    overflow: hidden; 
-    border-right: .15em solid rgb(254, 254, 254);
-    white-space: nowrap; 
-    margin: 15% auto; 
-    letter-spacing: .15em; 
-    animation: 
-      typing 2.5s steps(30) infinite alternate,
-      blink-caret .75s steps(30) infinite normal;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 57% }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(255, 255, 255); }
-  }
