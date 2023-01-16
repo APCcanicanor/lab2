@@ -144,7 +144,7 @@ nav ul li a:hover {
 .w3-area {
     background: #E4DEE4 no-repeat;
     width:100%;
-	height:calc(100vh - 80px);
+	height:calc(80vh - 80px);
 	background-size:cover;
     padding: 5px;
     font-size: 30px;
