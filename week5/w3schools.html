@@ -8,6 +8,7 @@
     <link rel = "stylesheet" href = "css/w3schools.css">
     <script src="https://kit.fontawesome.com/f13e6c5b0d.js" crossorigin="anonymous"></script>
     <script src = "js/time.js"></script>
+    <script src = "js/BUTTON.js"></script>
 </head>
 <body onload = "realtimeClock()">
 <!-- Legit applying everything from w3schools-->
@@ -34,33 +35,9 @@
             <div id = "clock"></div>
         </div>
     </section>
-    <div id = "part1-js" >
-        <section class = "intro-js">
-            <div id = "w3-intro">
-            <h1 style = "text-align: center; font-size: 50px"> Java Script thingz </h1>
-            <script>
-                function myFunction() {
-                    document.getElementById("prs").innerHTML = "Hello human";
-                }
-            </script>
-            <h2 id = "prs">Press the button <br>
-            <button type = "button" id = "js-btn" onclick = "myFunction()" > Click me </button>
-            </h2>
-        </div>  
-        <div id = "js-prt2">
-            <h2>Variables</h2>
-            <p> We add x and y by letting: <br>
-                x = 10 <br>
-                y = 5
-            </p>
-            <p id ="var"></p>
-            <script>
-                let x = 10;
-                let y = 5;
-                let sum = x + y;
-                document.getElementById("var").innerHTML = "The sum of x and y is: " + sum;
-            </script>
-        </div>
+    <button onclick = "myFunction()"class = "h-btn">Alert Button</button>
+    <p id = "alrt"></p>
+   
         </section>
     </div>
 <!--

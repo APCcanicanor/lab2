@@ -120,7 +120,7 @@ nav ul li a:hover {
 .home-area { 
 	background: rgb(66, 66, 66) no-repeat;
 	width:100%;
-	height:calc(100vh - 80px);
+	height:calc(80vh - 80px);
 	background-size:cover;
     color:white;
     padding: 30px;
@@ -134,36 +134,18 @@ nav ul li a:hover {
   font-family: 'Roboto', sans-serif;
 }
 
-#js-btn {
-  background: #ffffff;
+.h-btn {
+  background: #584c4c;
   border: 0;
   outline: none;
-  padding: 10px 25px;
-  color: rgb(0, 0, 0);
+  padding: 15px 35px;
+  color: #fff;
   position: relative;
   font-weight: 500px;
   letter-spacing: 1px;
   cursor: pointer;
+  
 }
-
-#prs {
-  display: table;
-  padding: 5px;
-  font-size: 20px;
-  color: white;
-  background-color: #464343;
-  margin: 5px auto 5px auto;
-}
-
-#js-prt2{ 
-  display: table;
-  padding: 5px;
-  font-size: 20px;
-  color: white;
-  background-color: #464343;
-  margin: 5px auto 5px auto;
-}
-
 
 footer{
   background: #111;
