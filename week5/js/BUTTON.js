@@ -7,3 +7,7 @@ function myFunction() {
 function btn(){
     document.getElementById("rnum").innerHTML = Math.random();
  } 
+
+ function goBack() {
+    window.history.back()
+  }
