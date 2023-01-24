@@ -11,3 +11,8 @@ function btn(){
  function goBack() {
     window.history.back()
   }
+
+function page() {
+    document.getElementById("lnk").innerHTML = 
+"The full URL of this page is:<br>" + window.location.href;
+}
