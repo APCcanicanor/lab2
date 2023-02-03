@@ -20,8 +20,8 @@
     </label>
     <label class = "logo"><a href = #home style = "color: white;">V's</a></label>
     <ul>
-        <li><a alt = "home-button" href = "index.html"> Home </a></li>
-        <li><a alt = "home-button" href = "personal profile.html"> Personal Page </a></li>
+        <li><a alt = "home-button" href = "index.php"> Home </a></li>
+        <li><a alt = "home-button" href = "personal profile.php"> Personal Page </a></li>
     </ul>
 </nav>
 

@@ -16,10 +16,10 @@
         <label for = "check" class = "checkbtn">
               <i class="fas fa-bars"></i>
         </label>
-        <label class = "logo"><a href = "index.html" style = "color: white;">V's</a></label>
+        <label class = "logo"><a href = "index.php" style = "color: white;">V's</a></label>
         <ul>
-            <li><a alt = "home-button" href = "index.html"> Home </a></li>
-            <li><a atl = "about-button" href = "w3schools.html"> w3schools </a></li>
+            <li><a alt = "home-button" href = "index.php"> Home </a></li>
+            <li><a atl = "about-button" href = "w3schools.php"> w3schools </a></li>
         </ul>
     </nav>
 
