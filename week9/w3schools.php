@@ -45,6 +45,12 @@
     <button onclick = "page()" style = "margin-top: 10px;">Generate website link</button>
     <p id = "lnk"></p>
 
+    <h1>Click the button for u to redirect to form validation </h1>
+    <button style = "margin-top: 10px;">Generate website link</button>
+    
+
+
+
     
    
         </section>
