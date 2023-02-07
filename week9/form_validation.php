@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>  
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+<style>
 .error {color: #FF0000;}
 </style>
 </head>
-<body>
+<body>  
+
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -104,30 +101,33 @@ echo $gender;
 ?>
 
 <?php
-$servername = "localhost";
-$username = "webprogss211";
-$password = "webprogss211";
-$dbname = "webprogss211";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+	$servername = "localhost";
+  $username = "webprogss211";
+  $password = "webprogss211";
+  $dbname = "webprogss211";
+	
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+	}
+	
+	$sql = "INSERT INTO canicanor_myguests (namee, email, website, comment, gender)
+	VALUES ('$name','$email','$website','$comment','$gender')";
+	
+	if ($conn->query($sql) === TRUE) {
+	echo "New record created successfully";
+	} else {
+	echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+	
+	$conn->close();	
+	
 }
-
-$sql = "INSERT INTO canicanor_myguests (namee, email)
-VALUES ('$name', '', '$email')";
-
-if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
 ?>
-
 
 
 </body>
