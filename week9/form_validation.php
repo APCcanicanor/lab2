@@ -105,9 +105,9 @@ echo $gender;
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "webprogss211";
+$password = "webprogss211";
+$dbname = "webprogss211";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -116,7 +116,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+$sql = "INSERT INTO canicanor_myguests (firstname, lastname, email)
 VALUES ('$name', '', '$email')";
 
 if ($conn->query($sql) === TRUE) {
