@@ -102,7 +102,6 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-<a href="guest.php">Guest</a>
 
 <?php
 
@@ -131,6 +130,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 	$conn->close();
 }
+
 ?>
+
+<a href="guests.php">Guest</a>
+
 </body>
 </html>
