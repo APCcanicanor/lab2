@@ -105,8 +105,8 @@ echo $gender;
 
 <?php
 $servername = "localhost";
-$username = "canicanor";
-$password = "bleachseason4";
+$username = "root";
+$password = "";
 $dbname = "myDB";
 
 // Create connection

@@ -9,8 +9,8 @@
 <body>
 <?php
 $servername = "localhost";
-$username = "canicanor";
-$password = "bleachseason4";
+$username = "root";
+$password = "";
 $dbname = "mydb";
 
 // Create connection
