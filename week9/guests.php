@@ -20,7 +20,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name FROM canicanor_myguests";
+$sql = "SELECT id, namee FROM canicanor_myguests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
