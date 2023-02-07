@@ -116,7 +116,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO canicanor_myguests (firstname, lastname, email)
+$sql = "INSERT INTO canicanor_myguests (namee, email)
 VALUES ('$name', '', '$email')";
 
 if ($conn->query($sql) === TRUE) {
