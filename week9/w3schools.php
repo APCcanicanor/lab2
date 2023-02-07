@@ -45,8 +45,10 @@
     <button onclick = "page()" style = "margin-top: 10px;">Generate website link</button>
     <p id = "lnk"></p>
 
-    <h1>Click the hyperlink below for u to redirect to form validation </h1>
-    <a href = "form_validation.php">Click here</a>
+    <h1>Click the hyperlink below </h1>
+    <a href = "form_validation.php">Forms</a>
+
+    <a href = "guests.php">See guests</a>
     
 
 
