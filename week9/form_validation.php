@@ -4,13 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/form.css">
+
+
   <title>Document</title>
   <style>
   .error {color: #FF0000;}
   </style>
 </head>
 <body>
-<?php
+<nav class="custom-header">
+  <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"><a href="#home" style="color: white;">V's</a></label>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="w3schools.php">w3schools</a></li>
+        <li><a alt = "home-button" href = "personal profile.php"> Personal Page </a></li>
+      </ul>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id = "php-sec">
+<?php 
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
 $name = $email = $gender = $comment = $website = "";
@@ -70,7 +92,7 @@ function test_input($data) {
 <h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Name: <input type="text" name="name" value="<?php echo $name;?>">
+  <b>Name: <input type="text" name="name" value="<?php echo $name;?>">
   <span class="error">* <?php echo $nameErr;?></span>
   <br><br>
   E-mail: <input type="text" name="email" value="<?php echo $email;?>">
@@ -86,8 +108,9 @@ function test_input($data) {
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
   <span class="error">* <?php echo $genderErr;?></span>
+</b>
   <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  <input class = "g-btn" type="submit" name="submit" value="Submit">  
 </form>
 
 <?php
@@ -132,8 +155,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 }
 
 ?>
+</div>
 
-<a href="guests.php">Guest</a>
 
 </body>
 </html>
